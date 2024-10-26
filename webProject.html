@@ -4,8 +4,75 @@
 <meta charset="UTF-8">
 <title>My First Website</title>
 </head> 
+	<style>
+		.background{
+			background-color: cornsilk;
+		}
+	
+		.container{
+			display: flex;
+			grid-template-columns: 1fr 1fr;
+			gap: 20px;
+		}
+		.column{
+			flex: 1;
+			padding: 10px;
+			border:1px solid #ccc;
+			text-align: center;
+		}
+		.header{
+			text-align: center;
+			font-size: 50px;
+		}
+		.highlight{
+			font-style: oblique;
+			color: red;
+			
+		}
+		.atitle{
+			font-size: 30px;
+			
+		}
+		
+		
+}
+    </style>
 
-<body>
-	<h1> this is my first website</h1>
+<body class="background">
+	<div class ="header">
+		<h1 > Top Anime Recomendation</h1>
+	</div>
+	
+	<div style="text-align: center" >
+		<p>The sole purpose of this page is to give recommendation of anime to watch, and also part of the Weekly assignment In <span class="highlight">MIT 125-Web page project.<span></p>
+		<p> things to know about this pages: <span class="highlight">THIS PAGES CONTAINS HYPERLINK THAT WILL REDIRECT YOU TO A DIFFERENT WEBSITE WHICH IS CRUNCHYROLL AND SVC WEBSITE.</span></p>
+			<p>Submitted by: <a href="https://skagit.instructure.com/courses/38654/users/73831">Alexie Dimasaca</a></p>
+	</div>
+			<div class="container">
+			
+	<div  class="column">
+		<img src="one piece.jpg" width="50%"height="60%">
+		<p class="atitle"><a href="https://www.crunchyroll.com/series/GRMG8ZQZR/one-piece?srsltid=AfmBOoo0EbSsRnLf_yYKcxJ_jBGJobIh05hpALLtoKdK7UREsyCguW22">One piece</a></p>
+		<p>
+			Embark on a voyage of a lifetime with One Piece. The epic anime series created by renowned mangaka Eiichiro Oda is a global phenomenon, captivating the hearts of fans across generations throughout its 25-year span. This thrilling high seas adventure is filled with unwavering friendship, epic battles for freedom, and the relentless pursuit of dreams. Join Monkey D. Luffy and his lovable pirate crew as they discover the true meaning of power and justice in this great pirate era.
+ 
+
+		</p>
+		
+		
+		</div>
+		<div class="column">
+			<img src="demonslayer.png" width="50%" height="60%">
+			<p class="atitle"> <a href="https://www.crunchyroll.com/series/GY5P48XEY/demon-slayer-kimetsu-no-yaiba">Demon Slayer:Kimetsu no Yaiba</a></p>
+			<p>
+				It is the Taisho Period in Japan. Tanjiro, a kindhearted boy who sells charcoal for a living, finds his family slaughtered by a demon. To make matters worse, his younger sister Nezuko, the sole survivor, has been transformed into a demon herself.
+
+			</p>
+		
+		</div>
+		</div>
+		
+
+	
 </body>
 </html>
